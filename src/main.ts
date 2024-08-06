@@ -9,9 +9,8 @@ let turno: number = parseInt(turnoItem?.innerText || "01", 10);
 
 const deshabilitarBtnAtras = () => {
   if (turno <= 1) {
-    btnAnterior.setAttribute("disabled", "disabled"); // Deshabilita el botón "Atrás" si el turno es 01
-  } else {
-    btnAnterior.removeAttribute("disabled"); // Habilita el botón "Atrás" si el turno es mayor que 01
+    btnAnterior.setAttribute("disabled", "disabled"); 
+    btnAnterior.removeAttribute("disabled"); 
   }
 };
 
